@@ -4,17 +4,20 @@ using namespace std;
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(NULL);
-    int num;
-    cin>>num;
-    cout << num <<" ";
-    while(num>1) {
-        if(num%2 == 0) {
-            num/=2;
+    string dna;
+    cin >> dna;
+    dna.push_back('#');
+    int count = 1;
+    int maxLen = -1;
+    for(int i=1;i<dna.length();i++) {
+        if(dna[i-1] == dna[i]) {
+            count++;
         }
         else {
-            num = (3*num)+1;
+            maxLen = max(maxLen,count);
+            count = 1;
         }
-        cout << num <<" ";
     }
+    cout << maxLen << endl;
     return 0;
 }
