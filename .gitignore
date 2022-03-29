@@ -1,5 +1,6 @@
 *.exe
 test.cpp
+test2.cpp
 cf1.cpp
 .vscode
 usaco.cpp
