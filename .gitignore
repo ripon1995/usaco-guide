@@ -1,5 +1,3 @@
 *.exe
-codeforces.cpp
 .vscode
-usaco.cpp
-leetcode.cpp
+test
