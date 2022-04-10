@@ -2,8 +2,8 @@
 using namespace std;
 
 
-int main()
-{
+
+void findMethodBasic() {
     string message = "Long live bangladesh";
     // string.find() method returns if the matching element is found. Otherwise -1 returned
 
@@ -24,6 +24,20 @@ int main()
     else {
         cout << "Matching element is found at : " << foundIndex << endl;
     }
+}
 
+
+void patternCount(string line) {
+    int i=line.find("OMG");
+    while(i != line.npos) {
+        cout << "Index: " << i << endl;
+        i = line.find("OMG",i+1);
+    }
+}
+
+int main()
+{
+    string line = "longOMGliveOMGBangladeshOMG";
+    patternCount(line);
     return 0;
 }
