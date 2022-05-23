@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+
 // type definition
 typedef long long li;
 typedef unsigned long long uli;
