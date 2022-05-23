@@ -34,7 +34,6 @@ int main() {
         groupedStudents[2].pop_back();
         groupedStudents[3].pop_back();
     }
-
     cout << result << endl;
      int f,s,t;
     for(auto r:res) {
