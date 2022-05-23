@@ -35,7 +35,7 @@ int main() {
         groupedStudents[3].pop_back();
     }
     cout << result << endl;
-     int f,s,t;
+    int f,s,t;
     for(auto r:res) {
         tie(f,s,t) = r;
         cout << f << " " << s << " " << t << endl;
