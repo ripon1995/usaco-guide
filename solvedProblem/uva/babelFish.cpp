@@ -23,6 +23,7 @@ int main() {
 
     string str;
     mss dictonary;
+    
     while(getline(cin,str)) {
         if(str.length()==0) {
             break;
