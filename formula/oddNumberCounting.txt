@@ -1,0 +1,7 @@
+Problem : Given a consecutive array A={1,2,3,4,5} or A={2,3,4,5,6,7} or A={5,6,7,8}.
+We have to count odd numbers in A.
+
+Soln :
+    A = [2,3,4,5,6,7]
+    Here l=2, r=7
+    oddNumber = (r-l+1) + ((r/2)-((l-1)/2))
