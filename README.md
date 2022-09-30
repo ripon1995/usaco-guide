@@ -1,4 +1,4 @@
-                                          Usaco-Guide
+USACO GUIDE
 
 Topics : 
   1. Greedy
