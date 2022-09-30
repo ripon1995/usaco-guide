@@ -20,7 +20,7 @@ int main() {
             int a = data[i-1] + data[i];
             ans = max(ans,a);
         }
-        cout << ans << endl;
+        cout << ans << '\n';
     }
 
     return 0;
