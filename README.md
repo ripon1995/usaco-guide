@@ -1,6 +1,8 @@
-1. topic was selected according to usaco guide.
-2. solved problem based on a2oj category
-
+GuideLine : Usaco-Guide
 
 Topics : 
-1. Greedy
+  1. Greedy
+
+Platform : 
+  1. Codeforces (problem solved based on a2oj category)
+  2. Codechef
