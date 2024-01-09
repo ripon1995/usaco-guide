@@ -24,3 +24,8 @@ int main() {
     
     return 0;
 }
+
+/*
+problem link : 
+https://cses.fi/problemset/task/1650
+*/
