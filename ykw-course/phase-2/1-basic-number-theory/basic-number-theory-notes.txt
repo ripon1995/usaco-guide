@@ -1,0 +1,56 @@
+1. How to find divisors of a given number
+    - brute force o(n)
+    - o(sqrt(n))
+
+2. How many number has odd number of divisor for a given n?
+    - sqrt(n)
+
+3. What is prime number?
+    - a number is prime if and only if it has only 2 divisors (1 and itself)
+    - otherwise it will be a composite number
+
+4. Euclids lemma
+
+5. Fundamental theorem of arithmetic (Unique factorization theorem) : 
+    - every number can be expressed as uniqely as prime product
+    - ex : 12 = 2 * 2 * 3
+
+6. Prime test
+    - brute force
+    - o(sqrt(n))
+
+7. Smallest prime factor (SPF) :
+    - is also a prime
+
+8. Divisors using prime factorization
+    - O(sqrt(n))
+    - example : n = 100 
+    - prime factors = 2 2 5 5
+
+9. Number of divisors using prime factorization
+    - O(sqrt(n))
+    - example : n = 100
+    - divisors = 9
+
+10. Sieve
+    - O(nlog(log(n)))
+    - Primes from 1 to n
+
+11. Divisor count from 1 to n (using sieve)
+    - O(nlog(log(n)))
+    - example : n = 10
+    - output : divisor count form 1 to 10
+
+12. Sum of divisors from 1 to n (using sieve)
+    - O(nlog(log(n)))
+    - example : n = 10
+    - output : sum of the divisors of 1 to 10
+
+13. Smallest prime factors from 1 to n (using sieve)
+    - O(nlog(log(n)))
+    - example : n = 10
+    - output : spf of all the numbers from 1 to 10
+
+14. Prime factorization from 1 to n (using SPF)
+    - O(nlog(log(n)))
+    
