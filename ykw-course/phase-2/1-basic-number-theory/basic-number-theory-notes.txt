@@ -22,7 +22,7 @@
 7. Smallest prime factor (SPF) :
     - is also a prime
 
-8. Divisors using prime factorization
+8. Prime factorization
     - O(sqrt(n))
     - example : n = 100 
     - prime factors = 2 2 5 5
@@ -53,4 +53,3 @@
 
 14. Prime factorization from 1 to n (using SPF)
     - O(nlog(log(n)))
-    
